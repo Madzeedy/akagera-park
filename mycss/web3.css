@@ -32,3 +32,13 @@
 .yel-color{
     color: darkorange;
 }
+
+.card-1{
+    display: flex;
+    border-bottom: 3px solid black;
+    border-right: 20px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    margin-right:  750px;
+    border-radius: 8px;
+}
