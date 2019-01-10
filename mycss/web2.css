@@ -39,7 +39,6 @@
     border-right: 20px solid black;
     border-left: 3px solid black;
     border-top: 3px solid black;
-    margin-right:  750px;
     border-radius: 8px;
 }
 
@@ -54,8 +53,13 @@
 .cover{
     
     background-color: rgb(190, 180, 180);
+    height: 450px;
 }
 
 .cover-1{
     border: 1px solid red;
+}
+
+.page{
+    display: flex
 }
