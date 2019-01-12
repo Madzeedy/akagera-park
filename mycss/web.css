@@ -21,8 +21,11 @@
     display: flex;
     
 }
-.active{
+.active a{
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    
 }
 
 
@@ -41,6 +44,7 @@ img{
     justify-content: center;
    width: 1100px;
    height: 550px;
+   border: 4px solid white;
 }
 .head{
     background-color: grey;
@@ -86,3 +90,8 @@ h2{
     text-decoration: underline;
     text-decoration-color: yellow;
 }
+
+a:hover { 
+    background-color:orange;
+ 
+  }

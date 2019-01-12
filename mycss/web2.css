@@ -21,11 +21,12 @@
     display: flex;
     
 }
-.active{
+.active a{
     padding-right: 20px;
+    text-decoration: none;
+    color: white;
+
 }
-
-
 .akagera{
     font-size: 46px;
 }
@@ -53,13 +54,19 @@
 .cover{
     
     background-color: rgb(190, 180, 180);
-    height: 450px;
+    height: 420px;
 }
 
 .cover-1{
-    border: 1px solid red;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .page{
     display: flex
 }
+a:hover { 
+    background-color:orange;
+ 
+  }
